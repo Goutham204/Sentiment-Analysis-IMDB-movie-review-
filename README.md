@@ -6,26 +6,26 @@ This project implements a Sentiment Analysis System for IMDb movie reviews using
 
 #Technologies Used
 
-Programming Language: Python 
-Libraries: TensorFlow, Keras, NumPy, Pandas, NLTK, Flask
-Model Architecture: LSTM with Embedding, Dropout, and Dense layers
-Dataset: IMDb movie reviews dataset
-Deployment: Flask web app for real-time predictions
-Optimization: Adam Optimizer, Categorical Cross-Entropy Loss
+- Programming Language: Python 
+- Libraries: TensorFlow, Keras, NumPy, Pandas, NLTK, Flask
+- Model Architecture: LSTM with Embedding, Dropout, and Dense layers
+- Dataset: IMDb movie reviews dataset
+- Deployment: Flask web app for real-time predictions
+- Optimization: Adam Optimizer, Categorical Cross-Entropy Loss
 
 #Features
 
-Preprocesses text by removing HTML tags, URLs, special characters, and emojis
-LSTM-based deep learning model for sentiment analysis
-Uses Model Checkpointing to save the best model
-Web-based sentiment prediction using Flask
-Saves and loads Tokenizer using JSON for consistent preprocessing
+- Preprocesses text by removing HTML tags, URLs, special characters, and emojis
+- LSTM-based deep learning model for sentiment analysis
+- Uses Model Checkpointing to save the best model
+- Web-based sentiment prediction using Flask
+- Saves and loads Tokenizer using JSON for consistent preprocessing
 
 #Future Improvements
 
-Improve model accuracy with fine-tuned hyperparameters
-Deploy as a REST API for wider accessibility
-Integrate with a front-end framework for better UI
+- Improve model accuracy with fine-tuned hyperparameters
+- Deploy as a REST API for wider accessibility
+- Integrate with a front-end framework for better UI
 
 #License
 
